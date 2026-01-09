@@ -1,0 +1,8 @@
+*.pyc
+*.py[cod]
+*$py.class
+
+eggs/
+.eggs/
+*.egg-info/
+*.egg
