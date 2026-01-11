@@ -1,0 +1,47 @@
+Optimal_Energy_(pJ):  3779412131.84
+Runtime_(cycles): 7225344.0
+16b_Access_Energy_[RegisterFile(s),Buffer,DRAM]_(pJ): 
+	ifmap: [0.24, 20.2, 200]
+	ofmap: [0.24, 20.2, 200]
+	filter: [0.24, 20.2, 200]
+PE_Access_Cost_(pJ): 
+	ifmap: 0.035
+	ofmap: 0
+	filter: 0
+Tiles_Accessed_from_[RegisterFile(s),Buffer,DRAM]_in_Layer: 
+	ifmap: [576, 2, 1]
+	ofmap: [1151, 3, 1]
+	filter: [50176, 392, 1]
+Tiles_Accessed_from_[RegisterFile(s),Buffer,DRAM]_PEs_in_Layer: 
+	ifmap: [32, 32.0, 392]
+	ofmap: [0, 0.0, 0]
+	filter: [0, 0.0, 0]
+Memory_Bank_Size_List_When_Parallelized/Unrolled_[RegisterFile(s),Buffer,DRAM]_(bytes): 
+	ifmap: [18, 1280, 215296]
+	ofmap: [2, 512, 200704]
+	filter: [36, 144, 144]
+Memory_Block_Size_List_When_NOT_Parallelized/Unrolled_[RegisterFile(s),Buffer,DRAM]_(bytes): 
+	ifmap: [4608, 20480, 3444736]
+	ofmap: [512, 8192, 3211264]
+	filter: [9216, 36864, 36864]
+Layer_Size_(number_of_pixels): 
+	ifmap: 3444736
+	ofmap: 3211264
+	filter: 36864
+Best_Schedule_(innermost_loop_to_outermost_loop): 
+	Level_Number: 0
+		Loop_Name: FX, Loop_Bound: 3, Unrolling: 1
+		Loop_Name: FY, Loop_Bound: 3, Unrolling: 1
+		Loop_Name: OC, Loop_Bound: 2, Unrolling: 16
+		Loop_Name: IC, Loop_Bound: 2, Unrolling: 16
+	Level_Number: 1
+		Loop_Name: OX, Loop_Bound: 2, Unrolling: 1
+		Loop_Name: OY, Loop_Bound: 8, Unrolling: 1
+		Loop_Name: OC, Loop_Bound: 2, Unrolling: 1
+		Loop_Name: IC, Loop_Bound: 2, Unrolling: 1
+		Loop_Name: ON, Loop_Bound: 8, Unrolling: 1
+	Level_Number: 2
+		Loop_Name: OX, Loop_Bound: 28, Unrolling: 1
+		Loop_Name: OY, Loop_Bound: 7, Unrolling: 1
+		Loop_Name: ON, Loop_Bound: 2, Unrolling: 1
+Elapsed_Time_(s):  812.09

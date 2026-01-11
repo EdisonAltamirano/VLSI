@@ -1,0 +1,22 @@
+{
+  "mem_levels": 3,
+  "capacity": [
+    256,
+    32768,
+    1073741824
+  ],
+  "access_cost": [
+    0.48,
+    12.0,
+    200
+  ],
+  "parallel_count": [
+    256,
+    1,
+    1
+  ],
+  "parallel_cost": [
+    0.035
+  ],
+  "precision": 16
+}

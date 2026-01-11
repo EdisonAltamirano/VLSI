@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/users/eraltam/272/VLSI/hw/hw1/tools/run_optimizer.py", line 219, in <module>
+    arch_info, network_info, schedule_info, True, args.verbose
+  File "/home/users/eraltam/272/VLSI/hw/hw1/tools/run_optimizer.py", line 19, in basic_optimizer
+    resource, layer, schedule, verbose
+  File "/home/users/eraltam/272/VLSI/hw/hw1/src/interstellar/optimizer.py", line 20, in opt_optimizer
+    resource, layer, hint, verbose
+  File "/home/users/eraltam/272/VLSI/hw/hw1/src/interstellar/mapping_point_generator.py", line 891, in opt_mapping_point_generator_function
+    assert best_mapping_point, "No valid mapping point found."
+AssertionError: No valid mapping point found.
+OPTIMIZER_FAILED_EXIT_CODE=1

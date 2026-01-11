@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/home/users/eraltam/272/VLSI/hw/hw1/tools/run_optimizer.py", line 219, in <module>
+    arch_info, network_info, schedule_info, True, args.verbose
+  File "/home/users/eraltam/272/VLSI/hw/hw1/tools/run_optimizer.py", line 19, in basic_optimizer
+    resource, layer, schedule, verbose
+  File "/home/users/eraltam/272/VLSI/hw/hw1/src/interstellar/optimizer.py", line 20, in opt_optimizer
+    resource, layer, hint, verbose
+  File "/home/users/eraltam/272/VLSI/hw/hw1/src/interstellar/mapping_point_generator.py", line 858, in opt_mapping_point_generator_function
+    for blocking_partitioning in blocking_partitioning_generator:
+  File "/home/users/eraltam/272/VLSI/hw/hw1/src/interstellar/mapping_point_generator.py", line 710, in blocking_partitioning_generator_function
+    for pi in pb_generator:
+  File "/home/users/eraltam/272/VLSI/hw/hw1/src/interstellar/mapping_point_generator.py", line 661, in parallel_blocking_generator_function
+    resource.utilization_threshold,
+  File "/home/users/eraltam/272/VLSI/hw/hw1/src/interstellar/mapping_point_generator.py", line 613, in current_level_partition_blocking_with_hint
+    loop_tiles, slb, para_count, layer, level, schedule, u_threshold
+  File "/home/users/eraltam/272/VLSI/hw/hw1/src/interstellar/mapping_point_generator.py", line 517, in current_level_partition_blocking_2d_with_hint
+    u_threshold,
+  File "/home/users/eraltam/272/VLSI/hw/hw1/src/interstellar/mapping_point_generator.py", line 458, in current_level_partition_blocking_1d_with_hint
+    for l0 in partition_loops:
+TypeError: 'NoneType' object is not iterable
+OPTIMIZER_FAILED_EXIT_CODE=1
